@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+:root {
+    --cor1: #DB3A34;
+    --cor2: #440D0F;
+    --cor3: #bebebe;
+}
+header > h1 {
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(180deg, var(--cor1), var(--cor2));
+    padding: 20px;
+}
+h2 {
+    width: 50%;
+    background-color: var(--cor3);
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+img {
+    width: 50%;
+    height: 600px;
+}
+article {
+    padding: 20px 0;
+    text-align: center;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+p {
+    text-align: left;
+    width: 40%;
+    margin: 0 auto;
+}
